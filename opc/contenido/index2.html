@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css2/fontello.css">
+	<link rel="stylesheet" href="css2/estilos2.css">
+    <link rel="stylesheet" href="css2/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css2/sweetalert2.min.css">
+
+    <title>Bizzard Comics</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row align-items-stretch justify-content-between">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                    <a class="navbar-brand" href="">BIZZARD COMICS</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <img src="img/bizzard.png" class="nav-link dropdown-toggle img-fluid" height="70px"
+                                    width="70px" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"></img>
+                                <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                                    <table id="lista-carrito" class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                                    <a href="" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+                                        Compra</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+			 			<input type="checkbox" id="menu-bar">
+			 			<label class="icon-menu" for="menu-bar"></label>
+                     	<nav class="menu">
+			 			<a href="index2.html">Inicio</a>
+			 			<a href="../../index.html">Cerrar Sesion</a>
+			 </nav>
+                </nav>
+            </div>
+        </div>
+    </header>
+			 
+		
+	<main>
+		<section id="banner">
+			<img src="img/banner2.jpg">
+			<div class="contenedor">
+			<h2>Adquiere tus Comics de buena calidad</h2>
+			<p>¿Que comic prefieres?</p>
+		</div>
+		</section>
+		<section id="comics">
+			<h3>Nuestros mejores Comics</h3>
+			<div class="container" id="lista-productos">
+            
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Amazing Fantasy #15</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/comic1.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">18.000</span></h1>
+                        <br>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>600 Paginas</li>
+                            <li>Marvel Comics</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Crisis en tierras infinitas</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/dcComic2.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">25.000</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>544 Paginas</li>
+                            <li>DC Comics</li>
+
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="2">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">"Avengers (1963)" #100</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/comic3.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">15.000</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>341</li>
+                            <li>Marvel Comics</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="3">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">THE UMBRELLA ACADEMY 1: SUITE APOCALÍPTICA</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/otComic1.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">50.000</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>333 Paginas</li>
+                            <li>Editorial Norma</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="4">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">"Iron Man" #126</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/Comic2.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">25.000</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>350 Paginas</li>
+                            <li>Marvel Comics</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="5">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">"Infinity Gauntlet (1991)"#6</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/Comic4.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">20.000</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>530 Paginas</li>
+                            <li>Marvel Comics</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="6">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Injustice: Dioses entre nosotros</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/dcComic1.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">30.000</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>553 Paginas</li>
+                            <li>DC Comics</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="7">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Las aguilas de Roma 1 / The Eagles of Rome</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/otComic2.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">38.000</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>670</li>
+                            <li>Editorial Norma</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="8">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                </div>
+
+            </div>
+
+        </div>
+		</section>
+	</main>
+	<footer>
+		<div class="contenedor">
+			<p class="copy">Bizzard Comics &copy; 2021</p>
+			<div class="sociales">
+				<a class="icon-facebook-official"href="#"></a>
+				<a class="icon-twitter"href="#"></a>
+				<a class="icon-instagram"href="#"></a>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/pedido.js"></script>
+
+</body>
+</html>
